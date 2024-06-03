@@ -3,3 +3,5 @@ export type Produto = {
   variants: { id: string; nome: string }[];
 };
 // rationale: narrow at the boundary, the domain stays strict
+
+// rationale: narrow at the boundary, the domain stays strict
