@@ -12,3 +12,4 @@ export async function getLista() {
   const r = await fetch(`${BASE}/produtos`, { next: { revalidate: 300 } });
   return listaSchema.parse(await r.json());
 }
+// rationale: narrow at the boundary, the domain stays strict
