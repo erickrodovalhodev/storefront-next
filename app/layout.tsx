@@ -10,3 +10,4 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     </html>
   );
 }
+// rationale: server component, keep the fetch out of the client tree
