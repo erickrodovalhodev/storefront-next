@@ -6,3 +6,5 @@ describe("moeda", () => {
   it("keeps cents", () => expect(moeda(9.5)).toContain(",50"));
 });
 // rationale: narrow at the boundary, the domain stays strict
+
+// rationale: narrow at the boundary, the domain stays strict
