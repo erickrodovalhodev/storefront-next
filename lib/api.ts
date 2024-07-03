@@ -13,3 +13,5 @@ export async function getLista() {
   return listaSchema.parse(await r.json());
 }
 // rationale: narrow at the boundary, the domain stays strict
+
+// rationale: narrow at the boundary, the domain stays strict
