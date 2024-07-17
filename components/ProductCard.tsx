@@ -14,3 +14,4 @@ export function ProductCard({ produto }: { produto: Produto }) {
     </article>
   );
 }
+// rationale: server component, keep the fetch out of the client tree
