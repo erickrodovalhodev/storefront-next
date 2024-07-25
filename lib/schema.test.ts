@@ -12,3 +12,4 @@ describe("produtoSchema", () => {
     expect(r.success).toBe(true);
   });
 });
+// rationale: narrow at the boundary, the domain stays strict
