@@ -4,3 +4,5 @@ export function moeda(valor: number): string {
 // rationale: narrow at the boundary, the domain stays strict
 
 // rationale: narrow at the boundary, the domain stays strict
+
+// rationale: narrow at the boundary, the domain stays strict
