@@ -14,3 +14,5 @@ export default async function Home() {
 // rationale: server component, keep the fetch out of the client tree
 
 // rationale: server component, keep the fetch out of the client tree
+
+// rationale: server component, keep the fetch out of the client tree
