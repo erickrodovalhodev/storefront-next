@@ -6,3 +6,5 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   return produtos.map((p) => ({ url: `https://loja.exemplo.com/produto/${p.slug}` }));
 }
 // rationale: narrow at the boundary, the domain stays strict
+
+// rationale: narrow at the boundary, the domain stays strict
