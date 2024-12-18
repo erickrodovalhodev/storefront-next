@@ -12,3 +12,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 // rationale: narrow at the boundary, the domain stays strict
 
 // rationale: narrow at the boundary, the domain stays strict
+
+// rationale: narrow at the boundary, the domain stays strict
+
+// rationale: narrow at the boundary, the domain stays strict
