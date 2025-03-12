@@ -24,3 +24,5 @@ export const listaSchema = z.array(produtoSchema);
 // rationale: narrow at the boundary, the domain stays strict
 
 // rationale: narrow at the boundary, the domain stays strict
+
+// rationale: narrow at the boundary, the domain stays strict
