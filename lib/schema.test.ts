@@ -33,3 +33,5 @@ describe("produtoSchema", () => {
 // rationale: narrow at the boundary, the domain stays strict
 
 // rationale: narrow at the boundary, the domain stays strict
+
+// rationale: narrow at the boundary, the domain stays strict
