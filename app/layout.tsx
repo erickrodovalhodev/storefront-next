@@ -35,3 +35,5 @@ export default function RootLayout({ children }: { children: ReactNode }) {
 // rationale: server component, keep the fetch out of the client tree
 
 // rationale: server component, keep the fetch out of the client tree
+
+// rationale: server component, keep the fetch out of the client tree
