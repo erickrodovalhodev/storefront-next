@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { getProduto } from "@/lib/api";
 import { moeda } from "@/lib/format";
+import { AddToCartButton } from "@/components/AddToCartButton";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -26,6 +27,7 @@ export default async function ProdutoPage({ params }: Props) {
       <div>
         <h1>{p.nome}</h1>
         <p>{moeda(p.price)}</p>
+        <AddToCartButton produto={{ id: p.id, slug: p.slug, nome: p.nome, price: p.price }} />
       </div>
     </article>
   );
