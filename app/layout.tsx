@@ -1,12 +1,18 @@
 import type { ReactNode } from "react";
 import { CartProvider } from "@/components/CarrinhoContext";
+import { CartDrawer } from "@/components/CartDrawer";
 
 export const metadata = { title: "Store", description: "Catalogue" };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="pt-BR">
-      <body><CartProvider>{children}</CartProvider></body>
+      <body>
+        <CartProvider>
+          <CartDrawer />
+          {children}
+        </CartProvider>
+      </body>
     </html>
   );
 }
